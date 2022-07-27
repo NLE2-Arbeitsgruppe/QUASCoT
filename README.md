@@ -1,2 +1,3 @@
 # QUASCoT
-We try to build a QA-System based on the CORD-19 Dataset
+
+Das zum Projekt gehörende Paper ist unter nachstehenden Link einsehbar: LINK ZU OVERLEAF EINFÜGEN
