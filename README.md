@@ -1,19 +1,34 @@
 # QUASCoT
 
-## Userguide
-To test out our project, please proceed as follows:
-1. Download des Repositories. </break>
-2. Öffnen des Ordners via VSC. </break>
-3. Live Server Extention unter der Anleitung von VSC herunterladen. </break>
-4. "Go Live"-Button betätigen. </break>
-5. Das QA- System steht zur Benutzung bereit. Stellen Sie eine Frage :)
+We present a Question Answering-System (further QA-Sytem) for Corona topics. Please note: The system developers are not medically trained professionals. Therefore, the system does not claim to provide a fully comprehensive source of information on Covid-19-related issues that is understandable to everyone. Rather, it is intended to be a quick reference guide for biomedically trained personnel. 
 
-## Zur Umsetzung des Systems wurden folgende Packages, Tools, etc. verwendet:
-1. *[Haystack by deepset](https://haystack.deepset.ai/overview/intro)* zur Umsetzung der QA-System Implementierung (inklusive aller bereitgestellter [Tutorials](https://haystack.deepset.ai/tutorials/first-qa-system)  und [Guides](https://haystack.deepset.ai/guides/guides-overview) zur Implementierung eine QA-Systems), </break>
-2. [*Elasticsearch*](https://www.elastic.co/de/) zur Speicherung der generierten Daten (Antworten, Embeddings, etc.), </break>
-3. *VSC*, [_LiverServer-Extention_](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), um das visuelle Interface zu hosten. EVTL. MÖGLICHKEIT DER EIGENEN WEBSITE NUTZEN, VGL RZ, ABER BALD NACHSEHEN WEGEN UMSTELLUNG !!!!!</break>
-4. [Google Colab](https://colab.research.google.com) bzw. [Schlaubox](https://schlaubox.de): kooperatives Arbeiten am Projekt mit zusätzlicher GPU-Leistung und Speicherkapazität,</break>
-5. [*Huggingface*](https://huggingface.co/datasets/covid_qa_deepset): covid_qa_deepset - Datensatz als Datenbasis des hier zugrundelegenden QA-Systems; außerdem Laden der Modelle zum Fine-Tuning.
 
-## Paper
-Das zum Projekt gehörende Paper ist unter [diesem Link](https://www.overleaf.com/read/rddvpngnbtnd) einsehbar. Darin nachzulesen sind genauere Erläuterungen zur Projektdurchführung, Evaluation und Schwachstellen des Systems, sowie eine Gegenüberstellung mit vergleichbaren Arbeiten.
+## Libraries, Tools, Packages
+
+1. *[Haystack by deepset](https://haystack.deepset.ai/overview/intro)* zur Umsetzung der QA-System Implementierung (including all provided [tutorials](https://haystack.deepset.ai/tutorials/first-qa-system) and [guides](https://haystack.deepset.ai/guides/guides-overview) for implememnting a QA-System); in detail:
+  - [haystack.document_stores](): [ElasticsearchDocumentStore](https://haystack.deepset.ai/components/document-store)</break>
+  - [haystack.nodes](): [PreProcessor](https://docs.haystack.deepset.ai/docs/preprocessor), [BM25Retriever](https://docs.haystack.deepset.ai/docs/retriever),[FARMReader](https://docs.haystack.deepset.ai/docs/reader),</break>
+  - [haystack.pipelines](https://docs.haystack.deepset.ai/docs/nodes_overview): [ExtractiveQAPipeline]()</break>
+  - [haystack.utils](https://docs.haystack.deepset.ai/reference/utils-api): [print_answers](https://docs.haystack.deepset.ai/reference/utils-api#print_answers)
+2. [*Elasticsearch*](https://www.elastic.co/de/): data storage, </break>
+3. *VSC*, [_LiverServer-Extention_](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), to host the visual interface </break>
+4. [Google Colab](https://colab.research.google.com), [Schlaubox](https://schlaubox.de): cooperative work on the project with additional GPU power and memory capacity,</break>
+5. [*Huggingface*](https://huggingface.co/datasets/covid_qa_deepset): </break>
+  - ["covid_qa_deepset"](https://huggingface.co/datasets/covid_qa_deepset) - dataset as basis of the QA system,</break>
+  - models for fine tuning. </break>
+6. [pandas](https://pandas.pydata.org/docs/#) ????????????????????????????????????????????????????????
+7. [json](https://docs.python.org/3/library/json.html)
+8. [nltk](https://www.nltk.org/install.html)
+
+
+## Docs
+This folder contains the following ressources: 
+
+### [Setup](docs/Setup.md)
+Here you can find detailed instructions on how to install and use *QUASCoT*.
+
+### [Paper]()
+The paper belonging to the project is available at [this link](https://www.overleaf.com/read/rddvpngnbtnd). It contains detailed explanations of the project implementation, a comparison with similar work, weaknesses of the system, and our evaluation results.
+
+## [.ipynb]()
+A *Python* notebook as backend for the QA-System
