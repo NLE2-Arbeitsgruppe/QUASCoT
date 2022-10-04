@@ -1,7 +1,7 @@
 # QUASCoT
 
 ## Userguide
-Um das Projekt austesten zu können gehen Sie bitte folgendermaßen vor:
+To test out our project, please proceed as follows:
 1. Download des Repositories. </break>
 2. Öffnen des Ordners via VSC. </break>
 3. Live Server Extention unter der Anleitung von VSC herunterladen. </break>
