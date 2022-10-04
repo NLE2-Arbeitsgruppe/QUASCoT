@@ -12,7 +12,7 @@ Um das Projekt austesten zu können gehen Sie bitte folgendermaßen vor:
 1. *[Haystack by deepset](https://haystack.deepset.ai/overview/intro)* zur Umsetzung der QA-System Implementierung (inklusive aller bereitgestellter [Tutorials](https://haystack.deepset.ai/tutorials/first-qa-system)  und [Guides](https://haystack.deepset.ai/guides/guides-overview) zur Implementierung eine QA-Systems), </break>
 2. [*Elasticsearch*](https://www.elastic.co/de/) zur Speicherung der generierten Daten (Antworten, Embeddings, etc.), </break>
 3. *VSC*, [_LiverServer-Extention_](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), um das visuelle Interface zu hosten. EVTL. MÖGLICHKEIT DER EIGENEN WEBSITE NUTZEN, VGL RZ, ABER BALD NACHSEHEN WEGEN UMSTELLUNG !!!!!</break>
-4. [Google Colab](https://colab.research.google.com) bzw. [Schlaubox](https://schlaubox.de): koperatives Arbeiten am Projekt mit zusätzlicher GPU-Leistung und Speicherkapazität,</break>
+4. [Google Colab](https://colab.research.google.com) bzw. [Schlaubox](https://schlaubox.de): kooperatives Arbeiten am Projekt mit zusätzlicher GPU-Leistung und Speicherkapazität,</break>
 5. [*Huggingface*](https://huggingface.co/datasets/covid_qa_deepset): covid_qa_deepset - Datensatz als Datenbasis des hier zugrundelegenden QA-Systems; außerdem Laden der Modelle zum Fine-Tuning.
 
 ## Paper
