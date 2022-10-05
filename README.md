@@ -14,11 +14,14 @@ We present a Question Answering-System (further QA-Sytem) for Corona topics. Ple
 3. *VSC*, [_LiverServer-Extention_](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), to host the visual interface </break>
 4. [Google Colab](https://colab.research.google.com), [Schlaubox](https://schlaubox.de): cooperative work on the project with additional GPU power and memory capacity,</break>
 5. [*Huggingface*](https://huggingface.co/datasets/covid_qa_deepset): </break>
-  - ["covid_qa_deepset"](https://huggingface.co/datasets/covid_qa_deepset) - dataset as basis of the QA system,</break>
-  - models for fine tuning. </break>
+   models for fine-tuning of the system. </break>
 6. [pandas](https://pandas.pydata.org/docs/#) ????????????????????????????????????????????????????????
 7. [json](https://docs.python.org/3/library/json.html)
 8. [nltk](https://www.nltk.org/install.html)
+
+## data
+- [COVID-QA.json](data/COVID-QA.json): the base dataset for QUASCoT via [deepset](https://github.com/deepset-ai/COVID-QA.git)
+- [dataset-note.md](data/dataset-note.md): additional notes about the data set
 
 
 ## Docs
