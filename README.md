@@ -5,7 +5,7 @@ We present a Question Answering-System (further QA-Sytem) for Corona topics. Ple
 
 ## Libraries, Tools, Packages
 
-1. *[Haystack by deepset](https://haystack.deepset.ai/overview/intro)* zur Umsetzung der QA-System Implementierung (including all provided [tutorials](https://haystack.deepset.ai/tutorials/first-qa-system) and [guides](https://haystack.deepset.ai/guides/guides-overview) for implememnting a QA-System); in detail:
+1. *[Haystack by deepset](https://haystack.deepset.ai/overview/intro)* for the implementation of the QA system QUASCoT (including all provided [tutorials](https://haystack.deepset.ai/tutorials/first-qa-system) and [guides](https://haystack.deepset.ai/guides/guides-overview) for implementing a QA-System); in detail:
   - [haystack.document_stores](): [ElasticsearchDocumentStore](https://haystack.deepset.ai/components/document-store)</break>
   - [haystack.nodes](): [PreProcessor](https://docs.haystack.deepset.ai/docs/preprocessor), [BM25Retriever](https://docs.haystack.deepset.ai/docs/retriever),[FARMReader](https://docs.haystack.deepset.ai/docs/reader),</break>
   - [haystack.pipelines](https://docs.haystack.deepset.ai/docs/nodes_overview): [ExtractiveQAPipeline]()</break>
