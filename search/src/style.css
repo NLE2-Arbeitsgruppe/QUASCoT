@@ -1,0 +1,117 @@
+ /*monospace workaround: https://stackoverflow.com/questions/38781089/font-family-monospace-monospace
+  border: https://www.html-seminar.de/css-border-rahmen.htm*/
+
+body {
+    font-family: monospace, monospace;
+    font-size: 400;
+    background: #05214a;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #00ffcd;
+    line-height: 1.0;
+}
+
+h1 {
+    width: 80vw;
+    margin: 3vh auto;
+    text-align: center;
+    font-weight: 600;
+    color: #00ffcd;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px 0;
+    color: #aaffee;
+}
+
+p{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+
+.searchID, .searchContent, .searchTitle, .searchMediaType, .searchSource, .searchDate{
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    float: center;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 0;
+    background: #ffffff;
+    padding: 15px;
+    color: #aaffee;
+    transition: 0.5s;
+}
+
+#searchDateStart, #searchDateEnd{
+    font-weight: 200;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 0;
+    background: #ffffff;
+    padding: 15px;
+    color: #aaffee;
+    transition: 0.5s;
+}
+
+#searchButton{
+    float: center;
+    color: #ffffff;
+    border: 0;
+    background: #00ffcd;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+
+#serpResultContent{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+
+}
+
+#serpResultContent #resultElement #resultMediaType {
+    display: inline;
+    padding: 10%;
+    font-weight: lighter;
+    color: #aaffee;
+}
+
+#serpResultContent #resultElement #resultTitle {
+    display: inline;
+    font-weight: bold;
+    font-size: 26px;
+    color: #aaffee;
+
+}
+
+ ul {
+     float: center;
+     background: #00ffcd;
+     text-align: center;
+     list-style: none;
+     margin-top: 10px;
+     padding-left: 0;
+ }
+
+  #mySelect {
+     color: #fff;
+     background: #aaffee;
+     display: inline-block;
+     float: center;
+     padding: 1rem;
+     position: relative;
+     text-decoration: none;
+     transition-duration: 0.5s;
+ }
+
+

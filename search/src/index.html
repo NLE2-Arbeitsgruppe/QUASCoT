@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elasticsearch Signal 1M</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 align="center">QUASCoT -
+        A Question Answering System for Corona Topics
+        </h1>
+    <text style="align-content: space-evenly"> 
+    </text>
+
+        <ul>
+            <form>
+            <input type="text", id="searchInput", class="searchInput", placeholder="Type your question...">
+            
+            </form>
+        </ul>
+
+
+<br>
+
+   
+    <button id="searchButton" class="search">Search</button>
+
+    <div id="serpPublished"></div>
+
+    <div id="serpResultTitle">
+        <p id="resultHeader"></p>
+    </div>
+    <div id="serpResultContent">
+        <div id="resultElement">
+            <p id="resultTitle" class="results"></p>
+            <p id="resultMediaType" class="results"><br></p>
+            <p id="resultContent" class="results"></p>
+            <p id="resultSource" class="results"></p>
+            <p id="resultDate" class="results"></p>
+        </div>
+    </div>
+    <div id="serpPage">
+        <p id="serpResultPageText"></p>
+    </div>
+    <script src="querySearch.js"></script>
+</body>
+</html>
