@@ -29,7 +29,7 @@ This folder contains the following ressources:
 ### [Setup](docs/Setup.md)
 Here you can find detailed instructions on how to install and use *QUASCoT*.
 
-### [Paper]()
+### [Paper](docs/QUASCoT_NLE_II_Paper_SS_2022.pdf)
 The paper belonging to the project is available at [this link](https://www.overleaf.com/read/zjpzcpccgbmy). It contains detailed explanations of the project implementation, a comparison with similar work, weaknesses of the system, and our evaluation results.
 
 ### [Video](https://www.youtube.com/watch?v=yahA1c-Aiwo)
