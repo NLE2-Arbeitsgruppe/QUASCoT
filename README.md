@@ -32,7 +32,7 @@ Here you can find detailed instructions on how to install and use *QUASCoT*.
 ### [Paper]()
 The paper belonging to the project is available at [this link](https://www.overleaf.com/read/rddvpngnbtnd). It contains detailed explanations of the project implementation, a comparison with similar work, weaknesses of the system, and our evaluation results.
 
-### [Video]()
+### [Video](https://www.youtube.com/watch?v=yahA1c-Aiwo)
 For detailed information about our project motivation and implementation strategy feel free to watch our video to get more insights.
 
 ## Search
